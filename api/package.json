@@ -4,13 +4,14 @@
   "description": "Digest csv data from chart2000 and return data for web app",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "author": "Malachy Gilchrist",
   "license": "ISC",
   "devDependencies": {
     "express": "^4.16.4",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
   },
   "dependencies": {}
 }
