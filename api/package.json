@@ -4,7 +4,7 @@
   "description": "Digest csv data from chart2000 and return data for web app",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --recursive",
+    "test": "NODE_ENV=test nyc mocha --recursive",
     "dev": "nodemon app.js"
   },
   "author": "Malachy Gilchrist",
@@ -15,6 +15,7 @@
     "nyc": "^13.3.0"
   },
   "dependencies": {
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "express-promise-router": "^3.0.3",
     "pg": "^7.9.0"

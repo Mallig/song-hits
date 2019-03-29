@@ -6,6 +6,6 @@ const router = new Router()
 module.exports = router
 
 router.get('/', async (req, res) => {
-    const { rows } = await db.query('SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE=\'BASE TABLE\';')
-    res.send(rows[0])
+    const { rows } = await db.query('SELECT position, artist, song FROM songs;')
+    res.json(rows)
 })

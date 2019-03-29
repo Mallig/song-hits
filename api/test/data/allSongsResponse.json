@@ -1,0 +1,102 @@
+[
+    {
+        "position": 1,
+        "artist": "Ed Sheeran",
+        "song": "Shape Of You"
+    },
+    {
+        "position": 2,
+        "artist": "Luis Fonsi & Daddy Yankee",
+        "song": "Despacito"
+    },
+    {
+        "position": 3,
+        "artist": "Mark Ronson & Bruno Mars",
+        "song": "Uptown Funk"
+    },
+    {
+        "position": 4,
+        "artist": "Pharrell Williams",
+        "song": "Happy"
+    },
+    {
+        "position": 5,
+        "artist": "Ed Sheeran",
+        "song": "Perfect"
+    },
+    {
+        "position": 6,
+        "artist": "LMFAO",
+        "song": "Party Rock Anthem"
+    },
+    {
+        "position": 7,
+        "artist": "Adele",
+        "song": "Rolling In The Deep"
+    },
+    {
+        "position": 8,
+        "artist": "Gotye & Kimbra",
+        "song": "Somebody That I Used To Know"
+    },
+    {
+        "position": 9,
+        "artist": "Ed Sheeran",
+        "song": "Thinking Out Loud"
+    },
+    {
+        "position": 10,
+        "artist": "Imagine Dragons",
+        "song": "Radioactive"
+    },
+    {
+        "position": 11,
+        "artist": "The Chainsmokers & Halsey",
+        "song": "Closer"
+    },
+    {
+        "position": 12,
+        "artist": "John Legend",
+        "song": "All Of Me"
+    },
+    {
+        "position": 13,
+        "artist": "Justin Timberlake",
+        "song": "Can't Stop The Feeling"
+    },
+    {
+        "position": 14,
+        "artist": "Sia",
+        "song": "Cheap Thrills"
+    },
+    {
+        "position": 15,
+        "artist": "Carly Rae Jepsen",
+        "song": "Call Me Maybe"
+    },
+    {
+        "position": 16,
+        "artist": "OneRepublic",
+        "song": "Counting Stars"
+    },
+    {
+        "position": 17,
+        "artist": "Avicii",
+        "song": "Wake Me Up"
+    },
+    {
+        "position": 18,
+        "artist": "Camila Cabello & Young Thug",
+        "song": "Havana"
+    },
+    {
+        "position": 19,
+        "artist": "Adele",
+        "song": "Someone Like You"
+    },
+    {
+        "position": 20,
+        "artist": "Robin Thicke, T.I. & Pharrell Williams",
+        "song": "Blurred Lines"
+    }
+]

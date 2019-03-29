@@ -1,9 +1,20 @@
-const express = require('express');
+dotenv = require('dotenv')
+
+if (process.env.NODE_ENV === 'test') {
+  dotenv.config({path: './test/.env.test'})
+} else {
+  dotenv.config()
+}
+
+require('dotenv').config()
+const express = require('express')
 const mountRoutes = require('./routes')
 
-const app = express();
+const app = express()
 mountRoutes(app)
 
-app.listen(3000, function() {
-  console.log('Example app listening on port 3000!');
-});
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(3000, () => { console.log('App listening on port 3000!') })
+}
+
+module.exports = app
