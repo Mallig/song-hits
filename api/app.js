@@ -6,7 +6,6 @@ if (process.env.NODE_ENV === 'test') {
   dotenv.config()
 }
 
-require('dotenv').config()
 const express = require('express')
 const mountRoutes = require('./routes')
 
