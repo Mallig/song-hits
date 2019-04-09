@@ -7,7 +7,8 @@ const router = new Router()
 module.exports = router
 
 router.get('/', async (req, res) => {
-    let songs = await songService.all(db)
+    const country = req.query.country
+    let songs = await songService.all(db, country)
     res.json(songs)
 })
 

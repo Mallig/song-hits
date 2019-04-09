@@ -1,5 +1,7 @@
-const all = async (db) => {
-    const { rows } = await db.query('SELECT position, artist, song FROM songs;')
+const all = async (db, country = null) => {
+    const position = country ? country : 'position'
+    const query = `SELECT ${position} AS position, artist, song FROM songs;`
+    const { rows } = await db.query(query)
     return rows
 }
 
