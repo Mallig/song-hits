@@ -21,7 +21,7 @@ describe('App', function() {
         server.close(() => { console.log('Server Closing') })
     })
 
-    describe('/songs?artist=[artist name]', function() {
+    describe('/songs/artist?name=[artist name]', function() {
         it('returns aggregated data for queried artist', function(done) {
             http.get('http://127.0.0.1:3000/songs/artist?name=Ed+Sheeran', function(response) {
                 assert.equal(response.statusCode, 200)
