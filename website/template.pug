@@ -1,0 +1,13 @@
+- console.log(locals)
+- const headers = Object.keys(songs[0])
+
+
+table#desc
+    tr
+        each title in headers
+            th= title
+    each song in songs
+        tr
+            td= song[headers[0]]
+            td: a(href=`/artist?artist=${encodeURIComponent(song.artist)}`)= song[headers[1]]
+            td= song[headers[2]]

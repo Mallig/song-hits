@@ -1,0 +1,16 @@
+{
+  "name": "song-hits-frontend",
+  "version": "1.0.0",
+  "description": "hits the song hits api and displays tables of data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Malachy Gilchrist",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "got": "^9.6.0",
+    "pug": "^2.0.3"
+  }
+}
