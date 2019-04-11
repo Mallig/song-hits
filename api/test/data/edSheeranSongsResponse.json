@@ -1,5 +1,9 @@
-{
-    "artist": "Ed Sheeran",
-    "number of songs": 3,
-    "total score": 64479.4368556452
+{ "songs": 
+    [ 
+        {
+            "artist": "Ed Sheeran",
+            "num_songs": 3,
+            "total_score": 64479.4368556452
+        }
+    ]
 }
