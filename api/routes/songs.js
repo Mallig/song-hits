@@ -7,13 +7,9 @@ const router = new Router()
 module.exports = router
 
 router.get('/', async (req, res) => {
-    const country = req.query.country
-    let songs = await songService.all(db, country)
-    res.json(songs)
+    res.json(await songService.all(db, req.query.country))
 })
 
 router.get('/artist', async (req, res) => {
-    let artist = req.query.name
-    let aggregateData = await songService.artistAggregate(db, artist)
-    res.json(aggregateData)
+    res.json(await songService.artistAggregate(db, req.query.name))
 })
